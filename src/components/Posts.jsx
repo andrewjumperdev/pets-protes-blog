@@ -6,8 +6,8 @@ const Posts = () => {
         <div className="col-md-10 col-lg-8 col-xl-7">
             <div className="post-preview">
                 <a href="post.html">
-                    <h2 className="post-title">Man must explore, and this is exploration at its greatest</h2>
-                    <h3 className="post-subtitle">Problems look mighty small from 150 miles up</h3>
+                    <h2 className="post-title">Historia de Éxito #1:</h2>
+                    <h3 className="post-subtitle">Luna, la Gata Valiente</h3>
                 </a>
                 <p className="post-meta">
                     Posted by
