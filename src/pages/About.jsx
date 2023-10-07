@@ -1,7 +1,12 @@
+import Footer from "../components/Footer"
+import Navigation from "../components/Navigation"
+import background from "../assets/About.png"
+
 const About = () => {
   return (
     <>
-      <header className="masthead" style="background-image: url('assets/img/about-bg.jpg')">
+      <Navigation />
+      <div className="masthead" style={{ backgroundImage: `url(${background})` }}>
         <div className="container position-relative px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content-center">
             <div className="col-md-10 col-lg-8 col-xl-7">
@@ -12,7 +17,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </header>
+      </div>
       <main className="mb-4">
         <div className="container px-4 px-lg-5">
           <div className="row gx-4 gx-lg-5 justify-content-center">
@@ -33,6 +38,7 @@ const About = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </>
   )
 }

@@ -10668,7 +10668,6 @@ footer {
 }
 
 .masthead {
-  background-image: url('./assets/home-bg.jpg');
   position: relative;
   margin-bottom: 3rem;
   padding-top: calc(8rem + 57px);
